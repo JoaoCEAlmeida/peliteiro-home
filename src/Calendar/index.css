@@ -1,0 +1,56 @@
+.calendar-footer {
+  display: none;
+}
+
+.tooltip > a {
+  display: none !important;
+}
+
+.calendar__wrapper {
+  width: 90%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.calendar__wrapper > h2 {
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #313131;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: historic02, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  clear: both;
+  text-align: center;
+}
+
+.calendar-title {
+  color: #414141;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 28px;
+  letter-spacing: 0.6px;
+  text-align: center;
+}
+
+.calendar-body {
+  color: #414141;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.6px;
+  text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+  .calendar__wrapper > h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}

@@ -1,0 +1,41 @@
+.stay__with__us {
+  position: relative;
+  height: 100%;
+}
+
+.stay__with__us__image {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.stay__with__us__text {
+  position: absolute;
+  top: 50%;
+  left: 50px;
+}
+
+.stay__with__us__text > p {
+  color: white;
+  font-family: historic02, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.stay__with__us__text > h4 {
+  color: white;
+  font-size: 36px;
+  text-transform: uppercase;
+
+  line-height: 48px;
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width: 576px) {
+  .stay__with__us__text > h4 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
