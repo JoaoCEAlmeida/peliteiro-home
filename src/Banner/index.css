@@ -76,10 +76,10 @@
 }
 
 .banner__fadeBottom {
-  height: 40vh;
+  height: 15vh;
   width: 100%;
   position: absolute;
-  top: 61vh;
+  top: 86vh;
   z-index: 1;
   background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 1));
 }
