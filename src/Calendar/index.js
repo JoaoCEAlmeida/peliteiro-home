@@ -4,7 +4,6 @@ import { css } from "@emotion/core";
 import { API_KEY, CALENDAR_ID } from "../secrets";
 import "./index.css";
 
-console.log("AQUII", process.env);
 const styles = {
   eventCircle: {
     color: "#B241D1",
@@ -33,7 +32,7 @@ const MyCalendar = () => {
   return (
     <section id="calendar">
       <div className="calendar__wrapper">
-        <h2>See availability</h2>
+        <h2>Availability</h2>
         <Calendar apiKey={API_KEY} calendarId={CALENDAR_ID} styles={styles} />
       </div>
     </section>

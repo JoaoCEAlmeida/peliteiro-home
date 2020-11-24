@@ -17,7 +17,7 @@ const StayWithUs = () => {
       />
       <div className="stay__with__us__text">
         <p>STAY WITH US</p>
-        <h4>EXPLORE NATURE!</h4>
+        <h4>ENJOY NATURE!</h4>
       </div>
     </div>
   );
